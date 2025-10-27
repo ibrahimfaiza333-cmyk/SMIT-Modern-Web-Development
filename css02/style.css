@@ -1,0 +1,29 @@
+
+/* task1 */
+div{
+    color: cornflowerblue;
+}
+/* task 2 */
+.Bedroom{
+    background: rgb(77, 77, 151);
+}
+/* task 3 */
+#Kitchen{
+    color: orange;
+}
+
+/* task 4 */
+
+.Home>div{
+    background: gray;
+}
+/* task 5 */
+
+.LivingRoom+div{
+background: green;
+}
+/* task 6 */
+
+#Kitchen~div{
+    background: pink;
+}
