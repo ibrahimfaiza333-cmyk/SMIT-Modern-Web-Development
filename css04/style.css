@@ -1,0 +1,61 @@
+td {
+  height: 20px;
+  width: 30px;
+  
+}
+div{
+    text-align: center;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse; 
+  display: inline-block;
+}
+
+.box1 {
+  background: #ff6e61;
+}
+
+.box2 {
+  background: rgb(106, 91, 148);
+}
+
+.box3 {
+  background: hsl(84, 39%, 49%);
+}
+
+.box4 {
+  background: #f6cac9;
+}
+
+.box5 {
+  background: rgb(145, 168, 209);
+}
+
+.box6 {
+  background: hsl(1, 30%, 45%);
+}
+
+.box7 {
+  background: #b564a7;
+}
+
+.box8 {
+  background: rgb(0, 154, 118);
+}
+
+.box9 {
+  background: hsl(10, 73%, 50%);
+}
+
+.box10 {
+  background: #44b8ad;
+}
+
+.box11 {
+  background: rgb(239, 191, 80);
+}
+
+.box12 {
+  background: hsl(238, 29%, 50%);
+}
