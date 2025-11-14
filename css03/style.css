@@ -1,14 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-/* Center heading */
+@font-face {
+  font-family: 'RobotoLocal';
+  src: url('Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansLocal';
+  src: url('fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+.second{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-/* Flex container for all cards */
+h4{
+  font-size: medium;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  
+
+}
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -17,13 +48,11 @@ h2 {
   padding: 20px;
 }
 
-/* Base card style */
 .container {
-  height: 400px;
-  width: 250px;
+  height: 370px;
+  width: 210px;
   box-shadow: 4px 4px 10px gray;
   border-radius: 20px;
-  padding: 10px;
   text-align: center;
   color: black;
   font-size: 20px;
@@ -33,7 +62,7 @@ h2 {
   flex-direction: column;
 }
 
-/* Backgrounds & fonts */
+/* Cards */
 .card1 {
   background: #bee3e9;
 }
