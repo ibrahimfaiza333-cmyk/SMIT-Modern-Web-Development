@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f7;
+    padding: 40px;
+}
+
+/* Main wrapper */
+.main-container {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 25px;
+    border: 3px solid #e5e5e5;
+    position: relative; /* Important for the absolute element */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+/* Card design (common) */
+.card {
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* STATIC */
+.boxstatic {
+    background: #bfbad8;
+    position: static;
+}
+
+/* RELATIVE */
+.boxrelative {
+    background: #c2e6d9;
+    position: relative;
+    left: 20px;     /* Shift right */
+}
+
+/* ABSOLUTE */
+.boxabsolute {
+    background: #f7d0ae;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* FIXED – stays outside main container */
+.boxfixed {
+    background: #f3b4ae;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* STICKY */
+.boxsticky {
+    background: #b0ddef;
+    position: sticky;
+    top: 0;
+}
