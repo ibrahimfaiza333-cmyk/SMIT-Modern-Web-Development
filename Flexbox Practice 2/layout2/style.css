@@ -1,0 +1,122 @@
+main{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 450px;
+    width: 900px;
+    background: #dcdcdc;
+}
+
+
+/* LEFT BIG BOX */
+.box1{
+    background-color: #ff7474;
+    flex: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+/* RIGHT COLUMN */
+.main{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* RIGHT TOP BOX */
+.box2{
+    background-color: #c8ff80;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+/* RIGHT BOTTOM AREA */
+.box3{
+    flex: 1;
+    background-color: #ffaaf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+/* COLUMN FOR 4A & 4B */
+.box4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+/* 4A */
+.box4a{
+    flex: 1;
+    background-color: #9cb3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+/* 4B */
+.box4b{
+    flex: 1;
+    background-color: #7d94e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+/* LAYOUT FIX: place box3 and box4 side-by-side */
+.main > .box3, 
+.main > .box4 {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > .main {
+    display: flex;
+}
+
+main > .main {
+    flex: 2;
+}
+
+main > .main {
+    justify-content: space-between;
+}
+
+/* bottom area side by side */
+.main {
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.main > .box3,
+.main > .box4 {
+    flex: 1;
+}

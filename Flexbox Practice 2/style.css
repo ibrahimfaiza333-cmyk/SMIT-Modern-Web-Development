@@ -1,0 +1,65 @@
+main{
+    display: flex;
+    height: 300px;
+}
+
+
+
+
+.box1{
+    height: 40%;
+background-color: green;
+border: 2px solid black;
+width: 150px;
+
+}
+.box2{
+background-color: green;
+height: 60%;
+border: 2px solid black;
+width: 150px;
+
+}
+
+.box3{
+   background-color: green;
+height: 70%;
+border: 2px solid black; 
+width: 150px;
+
+}
+.box4{
+    background-color: green;
+height: 30%;
+border: 2px solid black;
+width: 150px;
+
+}
+.box5{
+    background-color: green;
+height: 10%;
+border: 2px solid black;
+width: 150px;
+
+}
+.box6{
+    background-color: green;
+height: 90%;
+border: 2px solid black;
+width: 150px;
+
+}
+.box7{
+    background-color: green;
+height: 70%;
+border: 2px solid black;
+width: 150px;
+
+}
+.box8{
+    background-color: green;
+height: 30%;
+border: 2px solid black;
+width: 150px;
+
+}

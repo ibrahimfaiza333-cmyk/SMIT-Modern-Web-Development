@@ -1,0 +1,147 @@
+.navbar{
+    display: flex;
+    gap: 20px;
+
+}
+.navbar .logo {
+    width: 30%;
+    height: 50px;
+    background: pink;
+
+    display: flex;              /* REQUIRED */
+    justify-content: center;    /* horizontal center */
+    align-items: center;        /* vertical center */
+}
+
+
+.navbar .menu{
+     width: 70%;
+    height: 50px;
+    background: rgb(175, 120, 120); 
+      display: flex;              /* REQUIRED */
+    justify-content: center;    /* horizontal center */
+    align-items: center; 
+}
+
+/* header */
+.headers{
+    display: flex;
+    gap: 20px;
+}
+
+.headers .header{
+    width: 70%;
+    height: 50px;
+    background-color: brown;  display: flex;              /* REQUIRED */
+    justify-content: center;    /* horizontal center */
+    align-items: center; 
+
+}
+.headers .Ads{
+       width: 30%;
+    height: 100vh;
+    background-color: brown;
+      display: flex;              /* REQUIRED */
+    justify-content: center;    /* horizontal center */
+    align-items: center; 
+}
+
+
+/* article */
+
+.art1{
+    display: flex;
+    margin-top: 0px;
+    gap: 20px;
+}
+.art1 div{
+ width: 35%;
+ background-color: aqua;
+ height: 100px;
+}
+.art2{
+    display: flex;
+    gap: 20px;
+}
+
+.art2 div{
+ width: 35%;
+ background-color:pink;
+ height: 100px;
+
+}
+
+.social{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media (max-width:600px){
+    /* header */
+  .headers{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.headers .header{
+    width: 100%;
+    background-color: brown;
+}
+.headers .Ads{
+   width: 100%;
+    background-color: brown;
+    height: 50px;
+}
+
+/*  */
+}
+
+
+
+/* fortablet */
+@media (max-width:780px) {
+     .headers{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.headers .header{
+    width: 100%;
+    background-color: brown;
+}
+.headers .Ads{
+   width: 100%;
+    background-color: brown;
+    height: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
