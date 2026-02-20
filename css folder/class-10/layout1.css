@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 600px;
+    width: 1000px;
+    background-color: pink;
+    display: flex;
+ 
+}
+div{
+    border: 2px solid black;
+}
+.col1,.col2,.col3,.col4{
+    height: 100%;
+    width: 25%;
+    background-color: pink;
+}
+.box1,.box4,.box8{
+    height: 40%;
+    background-color:pink;
+}
+.box2,.box3,.box7{
+    height: 60%;
+    background-color:pink;
+}
+
+
+.box5{
+    height: 20%;
+    background-color: pink;
+
+}
+.box6{
+    height: 80%;
+    background-color:pink;
+}
+

@@ -1,147 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1800px;
+    background-color: antiquewhite;
+    height: 100vh;
+    margin: auto;
+}
+/* navbar */
+
 .navbar{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    padding: 10px;
 
 }
-.navbar .logo {
-    width: 30%;
-    height: 50px;
-    background: pink;
+.logo{
+    width:30% ;
+    height: 100px;
+    background-color: brown;
+}
+.menu{
+    width:70% ;
+        height: 100px;
 
-    display: flex;              /* REQUIRED */
-    justify-content: center;    /* horizontal center */
-    align-items: center;        /* vertical center */
+    background-color: rgb(143, 95, 95);
 }
 
+@media (max-width:767px) {
+    .container{
+            width: 767px;
 
-.navbar .menu{
-     width: 70%;
-    height: 50px;
-    background: rgb(175, 120, 120); 
-      display: flex;              /* REQUIRED */
-    justify-content: center;    /* horizontal center */
-    align-items: center; 
+    }
+    .navbar{
+width: 760px;
+
 }
+}
+
 
 /* header */
-.headers{
-    display: flex;
-    gap: 20px;
-}
 
-.headers .header{
+.row2{
+    display: flex;
+    gap: 10px;
+
+}
+.header{
     width: 70%;
-    height: 50px;
-    background-color: brown;  display: flex;              /* REQUIRED */
-    justify-content: center;    /* horizontal center */
-    align-items: center; 
-
+    height: 100px;
+    background-color: blueviolet;
 }
-.headers .Ads{
-       width: 30%;
-    height: 100vh;
-    background-color: brown;
-      display: flex;              /* REQUIRED */
-    justify-content: center;    /* horizontal center */
-    align-items: center; 
+.ads{
+    width: 30%;
+    height: 700px;
+    background-color: rgb(149, 114, 183);
 }
 
+@media (max-width:480px) {
 
-/* article */
+    .row2{
+        flex-direction: column;
 
-.art1{
-    display: flex;
-    margin-top: 0px;
-    gap: 20px;
-}
-.art1 div{
- width: 35%;
- background-color: aqua;
- height: 100px;
-}
-.art2{
-    display: flex;
-    gap: 20px;
-}
-
-.art2 div{
- width: 35%;
- background-color:pink;
- height: 100px;
-
-}
-
-.social{
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* for mobile */
-@media (max-width:600px){
-    /* header */
-  .headers{
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-}
-
-.headers .header{
+    }
+   .ads,.header{
+    height: 100px;
     width: 100%;
-    background-color: brown;
-}
-.headers .Ads{
-   width: 100%;
-    background-color: brown;
-    height: 50px;
-}
-
-/*  */
-}
+    gap: 10px;
+   }
 
 
-
-/* fortablet */
-@media (max-width:780px) {
-     .headers{
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-}
-
-.headers .header{
-    width: 100%;
-    background-color: brown;
-}
-.headers .Ads{
-   width: 100%;
-    background-color: brown;
-    height: 50px;
-}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
